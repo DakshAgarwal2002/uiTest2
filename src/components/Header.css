@@ -1,0 +1,40 @@
+.eventViewer
+{
+    background-color: darkgrey;
+    font-weight: 500;
+    align-items: center;
+    height: 5vh;
+    width: 100%;
+    display: flex;
+    
+   
+}
+.eventViewer-first
+{
+    margin-left: 10px;
+    width: 250px;
+    box-sizing: border-box;
+}
+.eventViewer-second
+{
+    height: 100%;
+    display: flex;
+    align-items:end;
+}
+.open-events
+{
+    height: 4vh;
+    display: flex;
+    font-weight: 500;
+    width: 150px;
+    max-width: 150px;
+    /* flex:1; */
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border: 1px solid darkgray;
+}
+.active-event
+{
+    border: 1px solid white;
+}

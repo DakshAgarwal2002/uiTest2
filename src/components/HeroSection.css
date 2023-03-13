@@ -1,0 +1,39 @@
+.section-wrapper
+{
+    margin: 1rem;
+    flex:1
+}
+.event-table
+{
+    overflow-y:scroll;
+    overflow-x: hidden;
+    height:94vh;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    
+    padding: 0;
+  margin: 0;
+}
+tr{
+    display: flex;
+    gap: 2rem;
+    border: 1px solid black;
+    width: 100%;
+    padding: 5px;
+}
+tr:nth-child(even) {
+    
+    background-color:aliceblue;
+}
+.user
+{
+    /* font-weight: 100; */
+    font-size: 12px;
+    font-family: 'Times New Roman';
+}
+.user div{
+    font-size: 10px;
+    color: darkgray;
+}
